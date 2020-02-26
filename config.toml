@@ -1,4 +1,4 @@
-baseurl = "https://elated-wiles-e55d5e.netlify.com/"
+baseurl = "/"
 title = "Tanner Byers"
 theme = "hugo-coder"
 languagecode = "en"
@@ -31,7 +31,6 @@ disqusShortname = "yourdiscussshortname"
     rtl = false
 
     math = true
-    custom_css = ["css/custom.css"]
 
 # Social links
 [[params.social]]
