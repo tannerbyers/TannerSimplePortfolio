@@ -1,7 +1,7 @@
 ---
 title: "Food Truck Finder"
 date: 2020-02-25T22:24:03-05:00
-draft: true
+draft: false
 ---
 
 # [Live Demo](http://foodtruckfinder99.herokuapp.com/)

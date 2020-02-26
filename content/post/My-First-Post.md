@@ -1,7 +1,7 @@
 ---
 title: "My Markdown Process for Creating Code Blog Articles "
 date: 2020-02-25T19:52:39-05:00
-draft: true
+draft: false
 ---
 
 Tools I use:
