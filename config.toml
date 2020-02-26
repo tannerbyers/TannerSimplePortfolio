@@ -1,3 +1,60 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseurl = "http://www.example.com"
+title = "Tanner Byers"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "yourdiscussshortname"
+
+[params]
+    author = "Tanner Byers"
+    info = "Full Stack DevOps and EDI Healthcare Specialist"
+    description = "Tanner's personal website"
+    keywords = "blog,developer,personal"
+    avatarurl = "https://media-exp1.licdn.com/dms/image/C4E03AQGbxzD7StCv1w/profile-displayphoto-shrink_200_200/0?e=1588204800&v=beta&t=4b-8MIiqX-MQpcddChtUqSIHiHO-rs0xYgzp4tZ8QwY"
+
+    favicon_32 = "/img/favicon-32x32.png"
+    favicon_16 = "/img/favicon-16x16.png"
+
+    footercontent = "If code won't fix it, why am I here?"
+
+    hidecredits = false
+    hidecopyright = false
+
+    rtl = false
+
+    math = true
+    custom_css = ["css/custom.css"]
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/tannerbyers/"
+[[params.social]]
+    name = "Linkedin"
+    icon = "fab fa-linkedin fa-2x"
+    weight = 2
+    url = "https://www.linkedin.com/in/tanner-byers-2409b6160/"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"
+[[menu.main]]
+    name = "Projects"
+    weight = 3
+    url = "/projects/"
