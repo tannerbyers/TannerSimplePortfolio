@@ -1,6 +1,7 @@
 baseurl = "/"
 title = "Tanner Byers"
 theme = "hugo-coder"
+
 languagecode = "en"
 defaultcontentlanguage = "en"
 
