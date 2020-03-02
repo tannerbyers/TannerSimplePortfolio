@@ -21,16 +21,13 @@ disqusShortname = "yourdiscussshortname"
     keywords = "blog,developer,personal"
     avatarurl = "https://media-exp1.licdn.com/dms/image/C4E03AQGbxzD7StCv1w/profile-displayphoto-shrink_200_200/0?e=1588204800&v=beta&t=4b-8MIiqX-MQpcddChtUqSIHiHO-rs0xYgzp4tZ8QwY"
 
-    favicon_32 = "/img/favicon-32x32.png"
-    favicon_16 = "/img/favicon-16x16.png"
-
+    favicon_32 = "/img/favicon.png"
+    favicon_16 = "/img/favicon.png"
     footercontent = "If code won't fix it, why am I here?"
-
     hidecredits = false
     hidecopyright = false
 
     rtl = false
-
     math = true
 
 # Social links
@@ -58,3 +55,14 @@ disqusShortname = "yourdiscussshortname"
     name = "Projects"
     weight = 3
     url = "/projects/"
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "dracula"
+    tabWidth = 4
