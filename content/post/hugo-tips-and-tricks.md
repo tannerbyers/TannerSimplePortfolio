@@ -8,7 +8,7 @@ I am not sure about you but when I first tried to customize a hugo theme, I was 
 
 ### How do I add a javascript feature?
 
-You can add your JS snippet into a partial override. I recommend the header.html. so just copy:
+You can add your JS snippet into a partial override. I recommend the header.html for the JS you want on every page. So just copy:
 
  {{< highlight Go>}}
  ./themes/{your theme name}/layouts/partials/header.html

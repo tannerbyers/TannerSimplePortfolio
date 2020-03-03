@@ -23,6 +23,7 @@ disqusShortname = "yourdiscussshortname"
     hidecredits = false
     hidecopyright = false
     pygmentsUseClasses=true
+    PygmentsStyle = "dracula"
 
     rtl = false
     math = true
