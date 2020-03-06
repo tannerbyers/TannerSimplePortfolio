@@ -8,11 +8,11 @@ draft: false
 
 ## Getting Started 
 
-```
+{{< highlight Bash "linenos=false" >}}
 git clone https://github.com/tannerbyers/foodtruckfinder.git
 npm install 
 npm start
-```
+{{< / highlight >}}
 
 ## Built With
 
@@ -33,7 +33,7 @@ npm start
 
 *Christian Arroyvance - Came up with the Idea
 
-### Data Needed: 
+### Data Needed For Listings: 
 
 * Food truck Name
 * Food Truck Location (Lng, Lat)
