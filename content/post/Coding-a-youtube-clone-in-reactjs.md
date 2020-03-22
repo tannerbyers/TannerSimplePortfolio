@@ -66,7 +66,7 @@ suplex-video
     |       |   Sample3.mp4 [CREATE]   
     |
     └───src
-    |   │   App.css [DELETE ALL CONTENT]  {{< myshortcode spacing="  |   |   " shownText="App.js [UPDATE]" >}}
+        │   App.css [DELETE ALL CONTENT]  {{< myshortcode spacing="      |   " shownText="App.js [UPDATE]" >}}
 import React from 'react';
 import './App.css';
 
@@ -79,13 +79,13 @@ function App() {
 }
 
 export default App;
-{{< /myshortcode >}}    |   |   App.test.js [DELETE]
-    |   |   index.css
-    |   |   logo.svg [DELETE]
-    |   │   serviceWorker.js
-    |   |   setupTests.js
-    |   
-    └───components [CREATE]
+{{< /myshortcode >}}        |   App.test.js [DELETE]
+        |   index.css
+        |   logo.svg [DELETE]
+        │   serviceWorker.js
+        |   setupTests.js
+        |   
+        └───components [CREATE]
 ```
 
 We now have our absolute base frontend. Let's start with displaying the videos. 
