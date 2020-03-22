@@ -35,7 +35,9 @@ So let's start!
 *The frontend should now be running locally!*
 
 Let's go through and remove all the stuff we don't need. 
-I've listed the file hierarchy and the change's we're making
+I've listed the file hierarchy and the changes we're making
+
+I found my sample videos from https://www.pexels.com/search/videos/sport. They're super high quality and free to download
 
 ```
 suplex-video 
@@ -57,6 +59,11 @@ suplex-video
     |   │   logo512.png [DELETE]
     |   │   manifest.json
     |   │   robots.txt
+    |   |
+    |   └───Videos [CREATE]
+    |       |   Sample.mp4 [CREATE]
+    |       |   Sample2.mp4 [CREATE]
+    |       |   Sample3.mp4 [CREATE]   
     |
     └───src
         │   App.css [DELETE ALL CONTENT]  {{< myshortcode shownText="App.js [UPDATE]" >}}
@@ -78,3 +85,6 @@ export default App;
         │   serviceWorker.js
         |   setupTests.js
 ```
+
+We now have our absolute base frontend. Let's start with displaying the videos. 
+I'm going to add some sample videos in a 
