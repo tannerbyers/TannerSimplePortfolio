@@ -18,7 +18,7 @@ This project has a bunch of new concepts I've never implemented so this should b
 I prefer to build my personal projects one step at a time in two separate parts(frontend | backend). 
 So I start building the full frontend, then my backend, then integrating them together.
 
-#### I like building the front end first for two reasons.
+I like building the front end first for two reasons.
 * I am forced to make my app look the way I want instead of what is easiest for me to implement with my backend. Makes my projects a little more realistic.
 * If I stop building after the frontend, I can always deploy that as a template front end. This is better than a half finished full stack project
 
@@ -89,4 +89,53 @@ export default App;
 ```
 
 We now have our absolute base frontend. Let's start with displaying the videos. 
-I'm going to add some sample videos in a 
+
+This is pretty simple but a little different in React w/ JSX. Go ahead and create a IndividualVideo.js file inside your components folder. 
+Next is to render the videos from our public folder:
+
+
+#### *IndividualVideo.js*
+{{< highlight React "linenos=false" >}}
+import React from "react"
+
+const IndividualVideo = ({src}) => {
+
+return (<div style={{width: "400px", padding: "2rem"}}>
+      <video id="video1" height="500"  width= "400px" src={src} type="video/mp4" controls />
+      <p> Description</p>
+      <div style={{display: "flex", justifyContent: "center"}}>
+        <div >Upvote</div>
+        <div>Upvote</div>
+        <div>Upvote</div>
+      </div>
+      </div>  
+)}
+
+export default IndividualVideo;
+{{< / highlight >}}
+
+We will of course need to import this into our App.js and I added a tiny bit of styling for future so it should look something like this: 
+
+
+#### *App.js*
+{{< highlight React "linenos=false" >}}
+import React from 'react';
+import './App.css';
+import IndividualVideo from "./components/IndividualVideo.js"
+
+function App() {
+  return (
+    <div className="App">
+      <h1> Base Frontend </h1>
+      <div style={{display: "flex", flexDirection: "column"}}>
+        <IndividualVideo src="/videos/Sample.mp4"/>
+        <IndividualVideo src="/videos/Sample2.mp4"/>
+        <IndividualVideo src="/videos/Sample3.mp4"/>
+      </div>
+    </div>
+  );
+}
+
+export default App;
+
+{{< / highlight >}}
