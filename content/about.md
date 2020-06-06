@@ -6,9 +6,12 @@ draft: false
 
 # Hey There, I'm Tanner Byers!
 
-I currently work as a **(Technical) Business Analyst Associate** at [Availity LLC](https://www.availity.com/). Everyday I am learning new facets of the healthcare industry and applying my programming knowledge to create efficient workflows for mundane business task. I work mostly with X12 Data and create edit maps for our internal editing solutions and code edit logic in Javascript. 
+## Current Stack
+**ReactJs, CucumberJs, ExpressJs, PostreSql, Python**
 
-This blog was created to solve the problem of finding a convenient place to share my portfolio and also share things I learn from coding with other developers!
+I currently work as a **Software Engineer I** at [Availity LLC](https://www.availity.com/) and have been developing with CucumberJs to create regression tests for our team.
+
+This blog was created to solve the problem of finding a convenient place to share my thoughts, projects, and accomplishments. 
 
 In my free time, I'm either coding [side projects](https://github.com/tannerbyers), spending time with my beautiful family, or trying to play some D&D. Reach out to with the below links to connect!
 
