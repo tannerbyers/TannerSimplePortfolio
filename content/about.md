@@ -7,11 +7,11 @@ draft: false
 # Hey There, I'm Tanner Byers!
 
 ## Current Stack
-**ReactJs, CucumberJs, ExpressJs, PostreSql, Python**
+**ReactJs, ExpressJs, SQL, Python, Java, CucumberJs** 
 
-I currently work as a **Software Engineer I** at [Availity LLC](https://www.availity.com/) and have been developing with CucumberJs to create regression tests for our team.
+I currently work as a **Software Engineer** at [Availity LLC](https://www.availity.com/) working on lots of different projects (CucumberJS test for legacy codebase, Creating edit logic in Java, writing scripts to automate repititve tasks). 
 
-This blog was created to solve the problem of finding a convenient place to share my thoughts, projects, and accomplishments. 
+This blog was created to solve the problem of finding a convenient place to share my thoughs, ideas, and projects.
 
 In my free time, I'm either coding [side projects](https://github.com/tannerbyers), spending time with my beautiful family, or trying to play some D&D. Reach out to with the below links to connect!
 

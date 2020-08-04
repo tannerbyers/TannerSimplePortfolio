@@ -12,9 +12,9 @@ disqusShortname = "yourdiscussshortname"
 
 [params]
     author = "Tanner Byers"
-    info = "Full Stack DevOps and EDI Healthcare Specialist"
+    info = "Full Stack Developer/EDI Healthcare Specialist"
     description = "Tanner's personal website"
-    keywords = "blog,developer,personal"
+    keywords = "blog,developer,personal,EDI,healthcare,"
     avatarurl = "/img/avatar.jpg"
 
     favicon_32 = "/img/favicon.png"
